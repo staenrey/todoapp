@@ -9,6 +9,7 @@
   "author": "Stan Besman",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg-promise": "^10.9.5"
   }
 }
