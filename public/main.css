@@ -1,0 +1,39 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(223, 183, 183, 0.966);
+    color: black;
+    margin: 0 auto;
+}
+
+.main-wrapper {
+    background-color: rgba(246, 216, 43, 0.315);
+    max-width: 600px;
+    min-height: 1200px;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-style: solid;
+    border-color: rgb(137, 255, 239);
+
+}
+
+h1 {
+    margin: 0;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px rgb(128, 87, 95);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li.checked label {
+    text-decoration: line-through
+}
